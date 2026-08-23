@@ -1,0 +1,1 @@
+# daily-sale-analyzer
