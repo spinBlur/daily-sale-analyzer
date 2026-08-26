@@ -1,0 +1,51 @@
+order_id,order_date,customer_name,customer_email,product,category,quantity,unit_price,country
+1,2026-08-24,John Smith,john.smith@example.com,Wireless Headphones,Electronics,2,129.99,Germany
+2,2026-08-24,,emily.johnson@example.com,Smartphone,Electronics,,1099.99,France
+3,2026-08-24,Michael Brown,michael.b@example.com,Cotton T-Shirt,Clothing,3,24.99,
+4,2026-08-24,Sarah Wilson,,Laptop Backpack,Accessories,1,45.50,Italy
+5,2026-08-24,David Lee,david.l@example.com,Blender,Home Appliances,1,89.99,Spain
+6,2026-08-24,,,Python Programming,Books,2,,UK
+7,2026-08-24,James Taylor,james.t@example.com,Running Shoes,Footwear,1,79.99,Germany
+8,2026-08-24,Emma Davis,emma.d@example.com,,,4,,
+9,2026-08-24,,matthew.c@example.com,Desk Lamp,Home Appliances,2,39.99,France
+10,2026-08-24,Olivia Clark,,Coffee Maker,Home Appliances,,59.99,Italy
+11,2026-08-24,Amir M.,amir.m@example.com,Data Science Handbook,Books,1,49.99,Spain
+12,2026-08-24,,,Wireless Mouse,Electronics,3,,Germany
+13,2026-08-24,Robert Garcia,robert.g@example.com,Jeans,Clothing,2,59.99,
+14,2026-08-24,Sophia Martinez,,Yoga Mat,Sports,1,29.99,UK
+15,2026-08-24,,lucas.h@example.com,Smart Watch,Electronics,1,199.99,France
+16,2026-08-24,Ava Robinson,ava.r@example.com,Novel Collection,Books,,,Germany
+17,2026-08-24,,,Blender,,1,89.99,
+18,2026-08-24,Ethan Walker,,Gaming Keyboard,Electronics,2,119.99,Spain
+19,2026-08-24,Isabella Hall,isabella.h@example.com,,Clothing,3,,
+20,2026-08-24,,noah.a@example.com,Tablet,Electronics,1,349.99,Italy
+21,2026-08-24,Charlotte Young,charlotte.y@example.com,Machine Learning,Books,1,69.99,UK
+22,2026-08-24,,,Headphones,,,129.99,
+23,2026-08-24,Daniel Allen,,Dress,Clothing,1,89.99,Germany
+24,2026-08-24,Grace King,grace.k@example.com,Water Bottle,Accessories,4,19.99,France
+25,2026-08-24,,,Electric Kettle,Home Appliances,1,,Spain
+26,2026-08-24,Benjamin Wright,benjamin.w@example.com,JavaScript Guide,Books,2,39.99,Italy
+27,2026-08-24,,nathan.t@example.com,,Electronics,3,149.99,UK
+28,2026-08-24,Chloe Adams,chloe.a@example.com,Handbag,Accessories,,,Germany
+29,2026-08-24,,,Monitor,Electronics,1,299.99,
+30,2026-08-24,Henry Baker,henry.b@example.com,History Book,Books,1,24.99,France
+31,2026-08-24,,,Wireless Charger,Electronics,,19.99,Spain
+32,2026-08-24,Amelia Nelson,amelia.n@example.com,Sweater,Clothing,2,49.99,Italy
+33,2026-08-24,,,Fitness Tracker,Electronics,1,,UK
+34,2026-08-24,Samuel Carter,samuel.c@example.com,Notebook,Stationery,5,9.99,Germany
+35,2026-08-24,,liam.m@example.com,Printer,Electronics,1,179.99,France
+36,2026-08-24,Evelyn Reed,eve.reed@example.com,,,2,129.99,
+37,2026-08-24,,,Coffee Table,Furniture,1,249.99,Spain
+38,2026-08-24,Jack Evans,jack.e@example.com,Python Crash Course,Books,1,34.99,Italy
+39,2026-08-24,,,Smart Speaker,Electronics,2,,Germany
+40,2026-08-24,Abigail Ward,abigail.w@example.com,Scarf,Clothing,3,29.99,UK
+41,2026-08-24,,ethan.e@example.com,External SSD,Electronics,1,129.99,France
+42,2026-08-24,Harper Lewis,harper.l@example.com,Cookbook,Books,,,Spain
+43,2026-08-24,,,Gaming Mouse,Electronics,2,59.99,
+44,2026-08-24,Gabriel Cooper,gabriel.c@example.com,Backpack,Accessories,1,45.50,Italy
+45,2026-08-24,,,Electric Toothbrush,Personal Care,1,,Germany
+46,2026-08-24,Madison Cox,madison.c@example.com,Art History,Books,1,79.99,France
+47,2026-08-24,,mason.k@example.com,Wireless Earbuds,Electronics,2,,
+48,2026-08-24,Victoria Foster,victoria.f@example.com,Sunglasses,Accessories,1,89.99,Spain
+49,2026-08-24,,,Yoga Block,Sports,,14.99,
+50,2026-08-24,Amir M.,amir.m@example.com,Data Analysis,Books,1,59.99,Italy

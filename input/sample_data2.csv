@@ -1,0 +1,51 @@
+order_id,order_date,customer_name,customer_email,product,category,quantity,unit_price,country
+ORD1001,2024-12-23,Fatema Rezaei,fatema.rezaei@email.com,HP Laptop,Electronics,4,2500,Kuwait
+ORD1002,2024-12-23,Fatema Rezaei,fatema.rezaei@email.com,Iranian Tea,Food,10,30,Turkey
+ORD1003,2024-12-23,Ahmad Ali,ahmad.ali@email.com,Logitech Mouse,Electronics,4,150,Qatar
+ORD1004,2024-12-23,Ahmad Ali,ahmad.ali@email.com,Iranian Tea,Food,9,30,Qatar
+ORD1005,2024-12-23,Maryam Tagizade,maryam.tagizade@email.com,Sports Cap,Clothing,1,200,Kuwait
+ORD1006,2024-12-23,Ali Mohammadi,ali.mohammadi@email.com,Data Science Book,Books,5,180,Saudi Arabia
+ORD1007,2024-12-23,Narges Fahadi,narges.fahadi@email.com,Logitech Mouse,Electronics,0,150,Turkey
+ORD1008,2024-12-23,Sara Soltani,sara.soltani@email.com,Fast Charger,Electronics,8,250,Iran
+ORD1009,2024-12-23,Reza Shahrokhi,reza.shahrokhi@email.com,Logitech Mouse,Electronics,10,150,Kuwait
+ORD1010,2024-12-23,Narges Fahadi,,Sports Cap,Clothing,2,200,Qatar
+ORD1011,2024-12-23,Mohammad Karimi,mohammad.karimi@email.com,Logitech Mouse,Electronics,2,150,Qatar
+ORD1012,2024-12-23,Maryam Tagizade,maryam.tagizade@email.com,Python Book,Books,6,120,UAE
+ORD1013,2024-12-23,Mohammad Karimi,mohammad.karimi@email.com,Logitech Mouse,Electronics,9,150,UAE
+ORD1014,2024-12-23,Ali Mohammadi,ali.mohammadi@email.com,Espresso Coffee,Food,5,50,Lebanon
+ORD1015,2024-12-23,Hassan Nouri,hassan.nouri@email.com,Sony Headphones,Electronics,1,600,Saudi Arabia
+ORD1016,2024-12-23,Ahmad Ali,ahmad.ali@email.com,Python Book,Books,0,120,Lebanon
+ORD1017,2024-12-23,Sara Soltani,sara.soltani@email.com,Python Book,Books,8,120,Qatar
+ORD1018,2024-12-23,Maryam Tagizade,maryam.tagizade@email.com,Mechanical Keyboard,Electronics,3,800,Kuwait
+ORD1019,2024-12-23,Hassan Nouri,hassan.nouri@email.com,Iranian Tea,Food,10,30,Kuwait
+ORD1020,2024-12-23,Sara Soltani,sara.soltani@email.com,Data Science Book,Books,4,180,Saudi Arabia
+ORD1021,2024-12-23,Ali Mohammadi,ali.mohammadi@email.com,Iranian Tea,Food,2,30,Jordan
+ORD1022,2024-12-23,Fatema Rezaei,fatema.rezaei@email.com,Mechanical Keyboard,Electronics,7,800,UAE
+ORD1023,2024-12-23,Reza Shahrokhi,reza.shahrokhi@email.com,Data Science Book,Books,9,180,Jordan
+ORD1024,2024-12-23,Hassan Nouri,hassan.nouri@email.com,HP Laptop,Electronics,9,2500,Turkey
+ORD1025,2024-12-23,Narges Fahadi,narges.fahadi@email.com,Logitech Mouse,Electronics,7,150,Kuwait
+ORD1026,2024-12-23,Ahmad Ali,ahmad.ali@email.com,Fast Charger,Electronics,9,250,UAE
+ORD1027,2024-12-23,Mohammad Karimi,mohammad.karimi@email.com,Iranian Tea,Food,3,30,Qatar
+ORD1028,2024-12-23,Ali Mohammadi,ali.mohammadi@email.com,Iranian Tea,Food,10,30,Iran
+ORD1029,2024-12-23,Ahmad Ali,ahmad.ali@email.com,Logitech Mouse,Electronics,5,150,Saudi Arabia
+ORD1030,2024-12-23,Zahra Hasani,zahra.hasani@email.com,Sports Cap,Clothing,2,200,Turkey
+ORD1031,2024-12-23,Fatema Rezaei,fatema.rezaei@email.com,Iranian Tea,Food,3,30,UAE
+ORD1032,2024-12-23,Hassan Nouri,hassan.nouri@email.com,Mechanical Keyboard,Electronics,9,800,Kuwait
+ORD1033,2024-12-23,Reza Shahrokhi,reza.shahrokhi@email.com,Sony Headphones,Electronics,5,600,Qatar
+ORD1034,2024-12-23,Narges Fahadi,narges.fahadi@email.com,Espresso Coffee,Food,2,50,Jordan
+ORD1035,2024-12-23,Fatema Rezaei,fatema.rezaei@email.com,Python Book,Books,10,120,Iran
+ORD1036,2024-12-23,Sara Soltani,sara.soltani@email.com,Sony Headphones,Electronics,2,600,Iran
+ORD1037,2024-12-23,Ahmad Ali,ahmad.ali@email.com,Sony Headphones,Electronics,1,600,Turkey
+ORD1038,2024-12-23,Fatema Rezaei,fatema.rezaei@email.com,Iranian Tea,Food,5,30,Qatar
+ORD1039,2024-12-23,Zahra Hasani,zahra.hasani@email.com,Iranian Tea,Food,10,30,UAE
+ORD1040,2024-12-23,Zahra Hasani,zahra.hasani@email.com,Espresso Coffee,Food,0,50,Lebanon
+ORD1041,2024-12-23,Narges Fahadi,narges.fahadi@email.com,Data Science Book,Books,8,180,Lebanon
+ORD1042,2024-12-23,Ahmad Ali,ahmad.ali@email.com,Logitech Mouse,Electronics,7,150,Iran
+ORD1043,2024-12-23,Fatema Rezaei,fatema.rezaei@email.com,Sony Headphones,Electronics,4,600,Qatar
+ORD1044,2024-12-23,Ali Mohammadi,ali.mohammadi@email.com,Data Science Book,Books,5,180,UAE
+ORD1045,2024-12-23,Fatema Rezaei,fatema.rezaei@email.com,Espresso Coffee,Food,1,50,Turkey
+ORD1046,2024-12-23,Hassan Nouri,hassan.nouri@email.com,HP Laptop,Electronics,4,2500,Turkey
+ORD1047,2024-12-23,Maryam Tagizade,maryam.tagizade@email.com,Espresso Coffee,Food,7,50,Qatar
+ORD1048,2024-12-23,Ali Mohammadi,ali.mohammadi@email.com,Data Science Book,Books,7,180,Iran
+ORD1049,2024-12-23,Maryam Tagizade,maryam.tagizade@email.com,Fast Charger,Electronics,9,250,Lebanon
+ORD1050,2024-12-23,Maryam Tagizade,maryam.tagizade@email.com,Mechanical Keyboard,Electronics,5,800,Qatar
