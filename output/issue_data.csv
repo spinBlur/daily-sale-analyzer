@@ -1,0 +1,20 @@
+order_id,order_date,customer_name,customer_email,product,category,quantity,unit_price,country
+2,2026-07-24,,emily.johnson@example.com,Smartphone,Electronics,,1099.99,France
+6,2026-08-24,,,Python Programming,Books,2.0,,UK
+8,2026-08-24,Emma Davis,emma.d@example.com,123,,4.0,,
+10,2026-08-24,Olivia Clark,,Coffee Maker,Home Appliances,,59.99,Italy
+12,2026-08-24,,,Wireless Mouse,Electronics,3.0,,Germany
+16,2026-08-24,Ava Robinson,ava.r@example.com,Novel Collection,Books,,,Germany
+19,2026-08-24,Isabella Hall,isabella.h@example.com,,Clothing,3.0,,
+22,2026-08-24,,,Headphones,,,129.99,
+25,2026-08-24,,,Electric Kettle,Home Appliances,1.0,,Spain
+27,2026-08-24,,nathan.t@example.com,,Electronics,3.0,149.99,UK
+28,2026-08-24,Chloe Adams,chloe.a@example.com,Handbag,Accessories,,,Germany
+31,2026-08-24,,,Wireless Charger,Electronics,,19.99,Spain
+33,2026-08-24,,,Fitness Tracker,Electronics,1.0,,UK
+36,2026-08-24,Evelyn Reed,eve.reed@example.com,,,2.0,129.99,
+39,2026-08-24,,,Smart Speaker,Electronics,2.0,,Germany
+42,2026-08-24,Harper Lewis,harper.l@example.com,Cookbook,Books,,,Spain
+45,2026-08-24,,,Electric Toothbrush,Personal Care,1.0,,Germany
+47,2026-08-24,,mason.k@example.com,Wireless Earbuds,Electronics,2.0,,
+49,2026-08-24,,,Yoga Block,Sports,,14.99,

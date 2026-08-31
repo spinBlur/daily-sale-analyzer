@@ -1,0 +1,39 @@
+Sales Report for 2026-08-24
+-------------------
+Total orders: 50
+Total sales: $3,585.53
+
+Top 5 products by revenue:
+product
+Tablet                 $349.99
+Monitor                $299.99
+Wireless Headphones    $259.98
+Coffee Table           $249.99
+Gaming Keyboard        $239.98
+
+Top 5 countries by revenue:
+country
+France            $774.89
+Spain             $719.94
+Italy             $715.93
+Germany           $479.91
+United Kingdom    $189.95
+
+Data Quality Report
+-------------------
+Invalid order_date: 1
+Invalid customer_name: 21
+Invalid product: 4
+Invalid category: 4
+Invalid quantity: 8
+Invalid unit_price: 12
+Invalid country: 11
+
+
+Summary
+-------------------
+19 records saved in issue file and need to check!
+25 records not considering for analysis
+25 records are valid and considered for analysis
+
+$46.71 average order value
