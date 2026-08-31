@@ -60,10 +60,13 @@ def export_report_files(issues, cleaner):
     top_products = cleaner.clean.groupby("product")["revenue"].sum()
     top_countries = cleaner.clean.groupby("country")["revenue"].sum()
     count_error_records = issues["order_date"] + issues["product"] + issues["quantity"] + issues["unit_price"]
-    average_order_value = total_sales / total_orders - count_error_records
+    average_order_value = total_sales / (total_orders - count_error_records)
 
     def format_currency(x):
         return "${:,.2f}".format(x)
+
+    import os
+    os.makedirs("output", exist_ok=True)
 
     with open("output/sales_report.txt", "w") as f:
         f.write(f"Sales Report for {cleaner.date}\n")
