@@ -22,10 +22,11 @@ def main():
     total = cleaner.clean[cleaner.clean["status"] == True]
     cleaner.clean["revenue"] = total["quantity"] * total["unit_price"]
 
+    issues["errors"] = cleaner.clean[cleaner.clean["status"] == False].shape[0]
     cleaner.clean.drop(columns=["status"], inplace=True)
     cleaner.errors.drop(columns=["status"], inplace=True)
     cleaner.errors.sort_values(by="order_id", inplace=True)
-    cleaner.errors.drop_duplicates(subset=["order_id"], inplace=True)
+    cleaner.errors.drop_duplicates(inplace=True)
 
     export_report_files(issues, cleaner)
 
@@ -59,7 +60,7 @@ def export_report_files(issues, cleaner):
     total_orders = cleaner.clean["order_id"].nunique()
     top_products = cleaner.clean.groupby("product")["revenue"].sum()
     top_countries = cleaner.clean.groupby("country")["revenue"].sum()
-    count_error_records = issues["order_date"] + issues["product"] + issues["quantity"] + issues["unit_price"]
+    count_error_records = issues["errors"]
     average_order_value = total_sales / (total_orders - count_error_records)
 
     def format_currency(x):
@@ -102,7 +103,7 @@ def export_report_files(issues, cleaner):
 
         f.write("\nSummary\n")
         f.write("-------------------\n")
-        f.write(f"{cleaner.errors.shape[0]} records saved in issue file and need to check!\n")
+        f.write(f"{cleaner.errors["order_id"].nunique()} records saved in issue file and need to check!\n")
         f.write(f"{count_error_records} records not considering for analysis\n")
         f.write(f"{total_orders - count_error_records} records are valid and considered for analysis\n\n")
         f.write(f"{format_currency(average_order_value)} average order value")

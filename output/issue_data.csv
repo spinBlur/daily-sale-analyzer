@@ -1,7 +1,9 @@
 order_id,order_date,customer_name,customer_email,product,category,quantity,unit_price,country
 2,2026-07-24,,emily.johnson@example.com,Smartphone,Electronics,,1099.99,France
+2,,,emily.johnson@example.com,Smartphone,Electronics,,1099.99,France
 6,2026-08-24,,,Python Programming,Books,2.0,,UK
 8,2026-08-24,Emma Davis,emma.d@example.com,123,,4.0,,
+8,2026-08-24,Emma Davis,emma.d@example.com,,,4.0,,
 10,2026-08-24,Olivia Clark,,Coffee Maker,Home Appliances,,59.99,Italy
 12,2026-08-24,,,Wireless Mouse,Electronics,3.0,,Germany
 16,2026-08-24,Ava Robinson,ava.r@example.com,Novel Collection,Books,,,Germany

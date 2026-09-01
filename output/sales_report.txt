@@ -33,7 +33,7 @@ Invalid country: 11
 Summary
 -------------------
 19 records saved in issue file and need to check!
-25 records not considering for analysis
-25 records are valid and considered for analysis
+19 records not considering for analysis
+31 records are valid and considered for analysis
 
-$46.71 average order value
+$115.66 average order value

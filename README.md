@@ -59,7 +59,7 @@ python src/main.py input/sales_data.csv
 ### Expected CSV Columns
 
 The input CSV should contain the following columns:
-- `order_id`: Unique order identifier
+- `order_id`: Unique integer order identifier
 - `order_date`: Date of the order
 - `customer_name`: Name of the customer
 - `customer_email`: Email address of the customer
@@ -72,8 +72,9 @@ The input CSV should contain the following columns:
 ## Output Files
 
 ### cleaned_data.csv
-Contains all valid sales records after data cleaning. Includes:
-- All original columns (with corrections applied)
+- Contains all records after data cleaning. Only duplicate records are removed.
+- (order_date, product, quantity, unit_price) if one of these culomns has invalid value, that record will not be 
+considered for revenue calculation.
 - `revenue` column (quantity × unit_price)
 
 ### issue_data.csv
