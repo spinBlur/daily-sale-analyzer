@@ -19,8 +19,9 @@ def main():
     issues["unit_price"] = cleaner.check_unit_price()
     issues["country"] = cleaner.check_country()
 
-    total = cleaner.clean[cleaner.clean["status"] == True]
-    cleaner.clean["revenue"] = total["quantity"] * total["unit_price"]
+    total_valid_records = cleaner.clean[cleaner.clean["status"] == True]
+    cleaner.clean["revenue"] = total_valid_records["quantity"] * total_valid_records["unit_price"]
+    unique_order_ids = total_valid_records["order_id"].nunique()
 
     issues["errors"] = cleaner.clean[cleaner.clean["status"] == False].shape[0]
     cleaner.clean.drop(columns=["status"], inplace=True)
@@ -28,7 +29,7 @@ def main():
     cleaner.errors.sort_values(by="order_id", inplace=True)
     cleaner.errors.drop_duplicates(inplace=True)
 
-    export_report_files(issues, cleaner)
+    export_report_files(issues, cleaner, unique_order_ids, total_valid_records)
 
 def get_csv_file() -> pd.DataFrame: 
     # get csv file from sys args
@@ -48,7 +49,7 @@ def get_csv_file() -> pd.DataFrame:
         df = pd.read_csv(url)
         return df
 
-def export_report_files(issues, cleaner):
+def export_report_files(issues, cleaner, unique_order_ids, total_valid_records):
     cleaner.clean.to_csv("output/cleaned_data.csv", index=False)
     print("Cleaned data saved to output/cleaned_data.csv")
 
@@ -61,7 +62,10 @@ def export_report_files(issues, cleaner):
     top_products = cleaner.clean.groupby("product")["revenue"].sum()
     top_countries = cleaner.clean.groupby("country")["revenue"].sum()
     count_error_records = issues["errors"]
-    average_order_value = total_sales / (cleaner.clean.shape[0] - count_error_records)
+    try:
+        average_order_value = total_sales / unique_order_ids
+    except ZeroDivisionError:
+        average_order_value = 0.0
 
     def format_currency(x):
         return "${:,.2f}".format(x)
@@ -103,9 +107,9 @@ def export_report_files(issues, cleaner):
 
         f.write("\nSummary\n")
         f.write("-------------------\n")
-        f.write(f"{cleaner.errors["order_id"].nunique()} records saved in issue file and need to check!\n")
+        f.write(f"{cleaner.errors['order_id'].nunique()} records saved in issue file and need to check!\n")
         f.write(f"{count_error_records} records not considering for analysis\n")
-        f.write(f"{total_orders - count_error_records} records are valid and considered for analysis\n\n")
+        f.write(f"{len(total_valid_records)} records are valid and considered for analysis\n\n")
         f.write(f"{format_currency(average_order_value)} average order value")
         print("Report generated successfully in output/sale_report.txt")
 
