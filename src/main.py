@@ -61,7 +61,7 @@ def export_report_files(issues, cleaner):
     top_products = cleaner.clean.groupby("product")["revenue"].sum()
     top_countries = cleaner.clean.groupby("country")["revenue"].sum()
     count_error_records = issues["errors"]
-    average_order_value = total_sales / (total_orders - count_error_records)
+    average_order_value = total_sales / (cleaner.clean.shape[0] - count_error_records)
 
     def format_currency(x):
         return "${:,.2f}".format(x)
